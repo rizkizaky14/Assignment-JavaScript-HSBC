@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="flex flex-row mb-5 justify-center">
+            <div class="flex flex-col">
+                <h1 class="text-5xl mt-8">Data Diri</h1>
+            </div>
+        </div>
+
+        <div class="flex flex-row m-4 items-center justify-center">
+           <span class="text-3xl mr-2">Cari Nama</span><input type="text" id="search" class="input-item">
+        </div>
+
+        <div class="flex flex-row justify-center">
+            <table class="border-2 border-gray-700">
+                 <thead>
+                    <tr class="border-2 border-gray-700">
+                        <th class="p-2">No</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <div id="detail"></div>
+            </table>
+        </div>    
+    </div>
+
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
